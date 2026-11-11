@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Belajar Coding Saya</title>
+  
+  <!-- 1. Menghubungkan file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="card">
+    <!-- Gambar Profil (placeholder foto developer) -->
+    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80" alt="Foto Profil" class="profile-img">
+
+    <h1>Tinondaru Pratonggo</h1>
+    <p class="role">Calon Web Developer Profesional</p>
+
+    <p>Halo! Saya sedang belajar web development dari nol. Saya menyukai hal-hal baru dan bersemangat untuk membangun website modern dan interaktif.</p>
+    
+    <h2>Media Sosial / Tautan:</h2>
+    <div class="links">
+      <a href="https://github.com" target="_blank" class="link-btn">GitHub</a>
+      <a href="https://linkedin.com" target="_blank" class="link-btn">LinkedIn</a>
+    </div>
+    <!-- Bagian Daftar Keahlian -->
+    <h2>Keahlian Saya:</h2>
+    <div id="daftarSkill" class="skill-container">
+      <span class="skill-badge">HTML5</span>
+      <span class="skill-badge">CSS3</span>
+    </div>
+
+    <!-- Form Input untuk menambah skill baru -->
+    <form id="formSkill" class="skill-form">
+      <input type="text" id="inputSkill" placeholder="Ketik keahlian baru..." required>
+      <button type="submit" id="btnTambah">Tambah</button>
+    </form>
+    
+    <!-- Tombol aksi -->
+    <button id="btnSapa">Sapa Pengunjung</button>
+  </main>
+
+  <!-- 2. Menghubungkan file JavaScript eksternal -->
+  <script src="script.js"></script>
+</body>
+</html>
